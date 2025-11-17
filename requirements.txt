@@ -1,0 +1,22 @@
+# LLM-Based Quiz Token Attribution System
+# 依存パッケージ
+
+# OpenAI API
+openai>=1.0.0
+
+# データ処理
+pandas>=2.0.0
+numpy>=1.24.0
+
+# JSON処理（標準ライブラリ - 明示的に記載）
+# json (標準ライブラリ)
+
+# CSV処理（標準ライブラリ）
+# csv (標準ライブラリ)
+
+# パス操作（標準ライブラリ）
+# pathlib (標準ライブラリ)
+
+# オプション: 型ヒント（Python 3.9+では標準）
+typing-extensions>=4.0.0
+

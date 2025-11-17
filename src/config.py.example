@@ -1,0 +1,10 @@
+# OpenAI API Configuration
+# 
+# Setup instructions:
+# 1. Copy this file to config.py:
+#    cp config.py.example config.py
+# 2. Replace "your-api-key-here" with your actual OpenAI API key
+# 3. Never commit config.py to git!
+
+key = "your-api-key-here"
+
