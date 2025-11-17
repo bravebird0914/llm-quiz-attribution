@@ -1,6 +1,6 @@
 # LLM-Based Quiz Token Attribution System
 
-クイズ問題のトークンに対する重要度（Attention Weight）をLLM（GPT-4.1/GPT-4o）を使って評価するシステムです。
+クイズ問題のトークンに対する重要度をLLM（GPT-4.1/GPT-4o）を使って評価するシステムです。
 
 ## 📋 概要
 
@@ -247,7 +247,8 @@ OpenAI API設定エラー
 
 ## 👤 作成者
 
-静岡大学 白砂研究室
+所属：静岡大学 情報学部 狩野研究室
+氏名：吉田勇翔
 
 ---
 
