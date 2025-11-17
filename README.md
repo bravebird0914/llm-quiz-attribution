@@ -10,6 +10,26 @@
 
 クイズ問題における各トークンの重要度をLLMで定量的に評価するための研究用システムです。
 
+## 🚀 クイックスタート
+
+```bash
+# 1. リポジトリをクローン
+git clone https://github.com/bravebird0914/llm-quiz-attribution.git
+cd llm-quiz-attribution
+
+# 2. 依存パッケージをインストール
+pip install -r requirements.txt
+
+# 3. API設定ファイルを作成
+cp src/config.py.example src/config.py
+# config.py を編集してOpenAI APIキーを設定
+
+# 4. スクリプトを実行
+python src/extract_questions.py      # ステップ1: データ抽出
+python src/calculate_weights.py      # ステップ2: 重要度計算
+python src/convert_to_csv.py         # ステップ3: CSV変換
+```
+
 ## 🗂️ ディレクトリ構造
 
 ```
@@ -104,7 +124,7 @@ data/output/gpt4_turbo_attention_weights.csv
 トークン化済みデータから18問のクイズを抽出：
 
 ```bash
-cd /home/bi23069/shizuoka_univ/shirasunalab/llm-quiz-attribution
+# プロジェクトルートディレクトリで実行
 python src/extract_questions.py
 ```
 
@@ -238,8 +258,8 @@ OpenAI API設定エラー
 
 ## 📚 関連情報
 
-- **元プロジェクト**: `/home/bi23069/shizuoka_univ/shirasunalab/quiz`
-- **形態素解析**: MeCab + NEologd辞書（元プロジェクトで実施済み）
+- **形態素解析**: MeCab + NEologd辞書を使用してトークン化済み
+- **クイズデータ**: ABC（Answer By Computer）大会 2013-2014年の問題集を使用
 
 ## 📄 ライセンス
 
